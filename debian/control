@@ -1,0 +1,21 @@
+Source: qttranslations-opensource-src
+Section: localization
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               qt5-qmake (>= 5.15.3~),
+               qttools5-dev-tools (>= 5.15.3~)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: http://qt-project.org/
+
+Package: qttranslations5-l10n
+Depends: ${misc:Depends}
+Architecture: all
+Description: translations for Qt 5
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides translation files for Qt itself and some base apps,
+ such as Qt Linguist, Qt Assistant and Qt Designer.
