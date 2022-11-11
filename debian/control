@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Uploaders: Deepin Packages Builder <packages@deepin.org>
 Build-Depends: debhelper-compat (= 13),
-               qt5-qmake (>= 5.15.3~),
-               qttools5-dev-tools (>= 5.15.3~)
+               qt5-qmake (>= 5.15.7~),
+               qttools5-dev-tools (>= 5.15.7~)
 Standards-Version: 4.6.0
 Rules-Requires-Root: no
 Homepage: http://qt-project.org/
