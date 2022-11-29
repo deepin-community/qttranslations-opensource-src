@@ -1,0 +1,28 @@
+package:
+  id: qttranslations
+  name: qttranslations
+  kind: lib
+  version: 5.15.7-1+dde
+  description: |
+    qttranslations
+
+base:
+  id: org.deepin.base
+  version: 23.0.0
+
+depends:
+  - id: qtbase
+    version: 5.15.7-1+dde
+  - id: qttools
+    version: 5.15.7-1+dde
+
+source:
+  kind: local
+  patch:
+    - debian/patches/fix-update-close-Tab-translations.patch
+    - debian/patches/Add-Uyghur-translations.patch
+    - debian/patches/Add-Tibetan-translations.patch
+
+build:
+  kind: qmake
+
